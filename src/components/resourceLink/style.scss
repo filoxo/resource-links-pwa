@@ -5,7 +5,14 @@
     margin: .25em 0 0;
 }
 @media screen{
-    .url {}
+    .url {
+        border-bottom: 1px dashed rgba(153, 153, 153, .5);
+        text-decoration: none;
+        transition: .3s all ease-in;
+        &:hover, &:focus {
+            border-bottom: 1px dashed rgba(153, 153, 153, 1);
+        }
+    }
     .printMetadata { display: none; }
 }
 
