@@ -1,0 +1,13 @@
+.resource:not(:last-child) {
+    margin-bottom: 1em;
+}
+
+@media screen{
+    .url {}
+    .printMetadata { display: none; }
+}
+
+@media print {
+    .url { display: none; }
+    .printMetadata {}
+}
