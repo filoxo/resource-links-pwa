@@ -1,0 +1,6 @@
+.section {
+    padding: 1.25em;
+    &:not(:last-child){
+        border-bottom: 1px solid gray;
+    }
+}
