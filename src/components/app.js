@@ -13,7 +13,6 @@ export default class App extends Component {
       <div id="app">
         <Header title="Resource Links" />
         <Layout>
-          <Section>
             {sections.map(({ heading, links }) => {
               return (
                 <Section heading={heading}>
@@ -21,7 +20,6 @@ export default class App extends Component {
                 </Section>
               );
             })}
-          </Section>
         </Layout>
       </div>
     );
