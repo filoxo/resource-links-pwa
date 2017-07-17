@@ -5,6 +5,8 @@ import Section from "./section";
 import ResourceLink from "./resourceLink";
 import Layout from "./layout";
 
+import { sections } from "./data.json";
+
 export default class App extends Component {
   render() {
     return (
@@ -12,13 +14,19 @@ export default class App extends Component {
         <Header title="Resource Links" />
         <Layout>
           <Section>
-            <ResourceLink
-              url={"https://test.com"}
-              heading={"Wow such title"}
-              description="Lorem ipsum dolor amet"
-            />
-            <ResourceLink url={"https://test.com"} heading={"Wow such title"} />
-            <ResourceLink url={"https://test.com"} heading={"Wow such title"} />
+            {sections.map(({ heading, links }) => {
+              return (
+                <Section heading={heading}>
+                  {links.map(({ url, heading, description }) =>
+                    <ResourceLink
+                      url={url}
+                      heading={heading}
+                      description={description}
+                    />
+                  )}
+                </Section>
+              );
+            })}
           </Section>
         </Layout>
       </div>
