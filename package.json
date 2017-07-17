@@ -1,7 +1,7 @@
 {
   "name": "resource-links-pwa",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create a simple progressive web app to share a group of resourceful/interesting/meaningful links.",
   "main": "index.js",
   "scripts": {
     "test": "eslint src && preact test",
@@ -11,8 +11,8 @@
     "dev": "preact watch"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Carlos Filoteo (@filoxo)",
+  "license": "MIT",
   "eslintConfig": {
     "extends": "eslint-config-synacor"
   },
