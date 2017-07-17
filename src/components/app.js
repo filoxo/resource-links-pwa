@@ -12,7 +12,11 @@ export default class App extends Component {
         <Header title="Resource Links" />
         <Layout>
           <Section>
-            <ResourceLink url={"https://test.com"} heading={"Wow such title"} />
+            <ResourceLink
+              url={"https://test.com"}
+              heading={"Wow such title"}
+              description="Lorem ipsum dolor amet"
+            />
             <ResourceLink url={"https://test.com"} heading={"Wow such title"} />
             <ResourceLink url={"https://test.com"} heading={"Wow such title"} />
           </Section>
