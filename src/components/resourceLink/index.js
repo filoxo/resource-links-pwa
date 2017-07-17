@@ -8,9 +8,9 @@ const ResourceLink = ({ url, heading, description }) => {
         {heading}
       </a>
       <div class={style.printMetadata}>
-        <h2>
+        <h3>
           {heading}
-        </h2>
+        </h3>
         <p>
           {url}
         </p>
