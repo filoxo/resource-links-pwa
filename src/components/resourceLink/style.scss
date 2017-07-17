@@ -1,7 +1,9 @@
 .resource:not(:last-child) {
     margin-bottom: 1em;
 }
-
+.description {
+    margin: .25em 0 0;
+}
 @media screen{
     .url {}
     .printMetadata { display: none; }
