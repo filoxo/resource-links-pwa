@@ -29,6 +29,7 @@
     "sass-loader": "^6.0.6"
   },
   "dependencies": {
+    "minireset.css": "0.0.3",
     "preact": "^8.2.1",
     "preact-compat": "^3.16.0"
   },
