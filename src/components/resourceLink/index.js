@@ -15,9 +15,10 @@ const ResourceLink = ({ url, heading, description }) => {
           {url}
         </p>
       </div>
-      <p>
-        {description}
-      </p>
+      {description &&
+        <p class={style.description}>
+          {description}
+        </p>}
     </div>
   );
 };
