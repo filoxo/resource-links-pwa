@@ -7,6 +7,9 @@ const Header = props => {
       <h1>
         {props.title}
       </h1>
+      <div class={style.searchContainer}>
+        <input class={style.search} type="text" placeholder="Search..." />
+      </div>
     </header>
   );
 };
