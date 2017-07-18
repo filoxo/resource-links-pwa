@@ -5,3 +5,7 @@
         padding: 1.5em 0;
     }
 }
+
+@media print {
+    .layout { max-width: 100%; }
+}
