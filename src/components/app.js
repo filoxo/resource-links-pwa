@@ -17,13 +17,7 @@ export default class App extends Component {
             {sections.map(({ heading, links }) => {
               return (
                 <Section heading={heading}>
-                  {links.map(({ url, heading, description }) =>
-                    <ResourceLink
-                      url={url}
-                      heading={heading}
-                      description={description}
-                    />
-                  )}
+                  {links.map(link => <ResourceLink {...link} />)}
                 </Section>
               );
             })}
