@@ -1,11 +1,11 @@
 {
-  "name": "Preact PWA",
-  "short_name": "Preact PWA",
+  "name": "Resource Links",
+  "short_name": "Links",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",
-  "theme_color": "#673ab8",
+  "theme_color": "#0288D1",
   "icons": [{
     "src": "/assets/icons/android-chrome-192x192.png",
     "type": "image/png",
