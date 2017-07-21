@@ -16,8 +16,9 @@ export default class App extends Component {
   getSectionSrc = () => JSON.parse(JSON.stringify(sectionsSrc));
   handleOnInput($event) {
     const term = $event.target.value;
+    let results = this.getSectionSrc();
     if (term !== "") {
-      let filteredSections = this.state.sections.filter(section => {
+      results = results.filter(section => {
         section.links = section.links.filter(
           ({ url, heading, description }) => {
             const termReg = new RegExp(term, "gi");
@@ -30,10 +31,8 @@ export default class App extends Component {
         );
         return section.links.length > 0;
       });
-      this.setState({ sections: filteredSections });
-    } else {
-      this.setState({ sections: this.getSectionSrc() });
     }
+    this.setState({ sections: results });
   }
   render({}, { sections }) {
     return (
