@@ -1,19 +1,24 @@
 {
     "sections": [
-        {
-            "heading": "First section",
-            "links": [
-                {
-                    "url": "https://testurl.com",
-                    "heading": "Such test heading wow",
-                    "description": "You are given me a heck"
-                },
-                {
-                    "url": "https://testurl.com",
-                    "heading": "Such test heading wow",
-                    "description": "You are given me a heck"
-                }
-            ]
-        }
+      {
+        "heading": "Passwords",
+        "links": [
+          {
+            "url": "https://howsecureismypassword.net/",
+            "heading": "How Secure Is My Password",
+            "description": "Get an idea of how secure your password is."
+          },
+          {
+            "url": "https://www.lastpass.com/",
+            "heading": "LastPass: Online password manager",
+            "description": "Create, store, and manage passwords securely. LastPass offers apps to access passwords across any of your devices. Great for beginners."
+          },
+          {
+            "url": "http://keepass.info/",
+            "heading": "KeePass",
+            "description": "A free open-source password manager to help you create and store your passwords securely. For intermediate users, this app gives you better security by leaving you in total control of your password database."
+          }
+        ]
+      }
     ]
 }
