@@ -4,7 +4,7 @@ import style from "./style";
 const ResourceLink = ({ url, heading, description }) => {
   return (
     <div class={style.resource}>
-      <a class={style.url} href={url} target="_blank" rel="noreferrer">
+      <a class={style.url} href={url} target="_blank" rel="noopener noreferrer">
         {heading}
       </a>
       <div class={style.printMetadata}>
