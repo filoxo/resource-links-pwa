@@ -8,8 +8,12 @@ const Header = props => {
         {props.title}
       </h1>
       <div class={style.searchContainer}>
+        <label htmlFor="search" class="sr">
+          Search
+        </label>
         <input
           class={style.search}
+          id="search"
           type="text"
           placeholder="Search..."
           onInput={props.filter}
