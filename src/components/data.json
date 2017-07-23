@@ -19,6 +19,56 @@
             "description": "A free open-source password manager to help you create and store your passwords securely. For intermediate users, this app gives you better security by leaving you in total control of your password database."
           }
         ]
+      },{
+        "heading": "Pornography",
+        "links": [
+          {
+            "url": "https://www.overcomingpornography.org/",
+            "heading": "Overcoming Pornography",
+            "description": "Part of the LDS Addiction Recovery Program, this site contains resources for overcoming pornography through the Atonement of Jesus Christ."
+          },{
+            "url": "http://learn.ftnd.org/",
+            "heading": "Fight The New Drug",
+            "description": "With a simple desire to make an impact on the world, FTND uses science, facts and personal accounts to help spread the message about the harmful effects of pornography."
+          },{
+            "url": "https://www.lds.org/topics/pornography",
+            "heading": "LDS.org Topics: Pornography",
+            "description": "Find gospel doctrine, learning and teaching resources, and media provided by the LDS Church to help teach about the sin of pornography."
+          }
+        ]
+      },{
+        "heading": "Cyberbullying",
+        "links": [
+          {
+            "url": "https://www.stopbullying.gov",
+            "heading": "StopBullying.gov",
+            "description": "Get tips, facts, toolkits, training materials, and more provided by government entities to stop, prevent, and react to cyberbullying."
+          }]
+      },{
+        "heading": "Social Media",
+        "links": [
+          {
+            "url": "http://www.pewinternet.org/2013/05/21/teens-social-media-and-privacy/",
+            "heading": "\"Teens, Social Media, and Privacy\"",
+            "description": ""
+          }]
+      },{
+        "heading": "Parental Controls",
+        "links": [
+          {
+            "url": "https://itunes.apple.com/us/app/kidslox-screen-time-parental/id914825567?mt=8",
+            "heading": "Kidslox Screen Time Control (iOS)",
+            "description": "Kidslox parental control app allows you to manage your family’s screen time by blocking apps, blocking internet and filtering web content with ease."
+          },{
+            "url": "https://meetcircle.com/",
+            "heading": "Circle",
+            "description": "Circle is a physical device for adding parental controls to your network. With Circle, parents can filter content, limit screen time and set a bedtime for every device in the home."
+          },{
+            "url": "https://families.google.com/familylink/",
+            "heading": "Google Family Link",
+            "description": "Family Link lets you create a Google Account for your kid that’s like your account, while also helping you set certain digital ground rules that work for your family — like managing the apps your kid can use, keeping an eye on screen time, and setting a bedtime on your kid’s device.   "
+          }
+        ]
       }
     ]
 }
