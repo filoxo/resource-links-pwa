@@ -24,11 +24,12 @@
     "if-env": "^1.0.0",
     "lint-staged": "^4.0.1",
     "node-sass": "^4.5.3",
-    "preact-cli": "^1.4.0",
+    "preact-cli": "^1.4.1",
     "prettier": "^1.5.3",
     "sass-loader": "^6.0.6"
   },
   "dependencies": {
+    "minireset.css": "0.0.3",
     "preact": "^8.2.1",
     "preact-compat": "^3.16.0",
     "preact-router": "^2.5.5"
