@@ -1,0 +1,27 @@
+@import '~style/helpers';
+
+.resource:not(:last-child) {
+    margin-bottom: 1em;
+}
+.description {
+    color: $secondary-text-color;
+    margin: .25em 0 0;
+}
+@media screen{
+    .url {
+        border-bottom: 1px dashed rgba($primary-color-dark, .25);
+        color: $primary-color-dark;
+        text-decoration: none;
+        transition: .3s all ease-in;
+        &:hover, &:focus {
+            border-bottom-color: $primary-color;
+            color: $primary-color;
+        }
+    }
+    .printMetadata { display: none; }
+}
+
+@media print {
+    .url { display: none; }
+    .printMetadata {}
+}

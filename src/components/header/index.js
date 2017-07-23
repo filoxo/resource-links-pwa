@@ -1,18 +1,22 @@
-import { h, Component } from 'preact';
-import { Link } from 'preact-router/match';
-import style from './style';
+import { h } from "preact";
+import style from "./style";
 
-export default class Header extends Component {
-	render() {
-		return (
-			<header class={style.header}>
-				<h1>Preact App</h1>
-				<nav>
-					<Link activeClassName={style.active} href="/">Home</Link>
-					<Link activeClassName={style.active} href="/profile">Me</Link>
-					<Link activeClassName={style.active} href="/profile/john">John</Link>
-				</nav>
-			</header>
-		);
-	}
-}
+const Header = props => {
+  return (
+    <header class={style.header}>
+      <h1>
+        {props.title}
+      </h1>
+      <div class={style.searchContainer}>
+        <input
+          class={style.search}
+          type="text"
+          placeholder="Search..."
+          onInput={props.filter}
+        />
+      </div>
+    </header>
+  );
+};
+
+export default Header;

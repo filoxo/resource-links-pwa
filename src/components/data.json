@@ -1,0 +1,19 @@
+{
+    "sections": [
+        {
+            "heading": "First section",
+            "links": [
+                {
+                    "url": "https://testurl.com",
+                    "heading": "Such test heading wow",
+                    "description": "You are given me a heck"
+                },
+                {
+                    "url": "https://testurl.com",
+                    "heading": "Such test heading wow",
+                    "description": "You are given me a heck"
+                }
+            ]
+        }
+    ]
+}

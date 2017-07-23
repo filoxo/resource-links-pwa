@@ -1,32 +1,42 @@
 {
   "name": "resource-links-pwa",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create a simple progressive web app to share a group of resourceful/interesting/meaningful links.",
   "main": "index.js",
   "scripts": {
     "test": "eslint src && preact test",
     "start": "if-env NODE_ENV=production && npm run -s serve || npm run -s dev",
     "build": "preact build",
     "serve": "preact build && preact serve",
-    "dev": "preact watch"
+    "dev": "preact watch",
+    "precommit": "lint-staged"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Carlos Filoteo (@filoxo)",
+  "license": "MIT",
   "eslintConfig": {
     "extends": "eslint-config-synacor"
   },
   "devDependencies": {
     "eslint": "^4.3.0",
     "eslint-config-synacor": "^1.0.1",
+    "husky": "^0.14.3",
     "if-env": "^1.0.0",
+    "lint-staged": "^4.0.1",
     "node-sass": "^4.5.3",
     "preact-cli": "^1.4.0",
+    "prettier": "^1.5.3",
     "sass-loader": "^6.0.6"
   },
   "dependencies": {
     "preact": "^8.2.1",
     "preact-compat": "^3.16.0",
     "preact-router": "^2.5.5"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }

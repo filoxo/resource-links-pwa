@@ -1,0 +1,11 @@
+.layout {
+    margin: 0 auto;
+    max-width: 550px;
+    @media screen and (min-width: 550px) {
+        padding: 1.5em 0;
+    }
+}
+
+@media print {
+    .layout { max-width: 100%; }
+}
