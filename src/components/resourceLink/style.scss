@@ -23,5 +23,5 @@
 
 @media print {
     .url { display: none; }
-    .printMetadata {}
+    .printMetadata h3 { margin: 0; }
 }
