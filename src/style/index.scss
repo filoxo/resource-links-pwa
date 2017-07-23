@@ -13,3 +13,11 @@ h3 { font-size: 1.1rem; }
 #app {
 	height: 100%;
 }
+.sr {
+  height: 1px;
+  left: -10000px;
+  overflow: hidden;
+  position: absolute;
+  top: auto;
+  width: 1px;
+}
