@@ -4,9 +4,9 @@ $white: #FFF;
 $gray: #999;
 $black: #000;
 
-$primary-color-dark:   #0288D1;
-$primary-color:        #03A9F4;
-$primary-color-light:  #B3E5FC;
+$primary-color:        #00796B;
+$primary-color-dark:   darken($primary-color, 5);
+$primary-color-light:  lighten($primary-color, 10);;
 $primary-color-text:   #FFF;
 $accent-color:         #FF9800;
 $primary-text-color:   #212121;
